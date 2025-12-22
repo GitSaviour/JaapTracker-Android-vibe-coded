@@ -1,22 +1,17 @@
 package com.example.jaaptracker
 
 import androidx.room.Entity
-import androidx.room.ForeignKey
+import androidx.room.Index
 import androidx.room.PrimaryKey
 import java.time.LocalDate
 
 @Entity(
     tableName = "jaap_logs",
-    foreignKeys = [ForeignKey(
-        entity = Profile::class,
-        parentColumns = ["id"],
-        childColumns = ["profileId"],
-        onDelete = ForeignKey.CASCADE
-    )]
+    indices = [Index("profileId")] // Keep the index for speed
 )
 data class JaapLog(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
-    val profileId: Long,
+    val profileId: Long, // This now acts as a simple number, not a "strict link"
     val date: LocalDate,
     val count: Int
 )
