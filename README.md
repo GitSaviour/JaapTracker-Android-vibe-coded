@@ -23,6 +23,14 @@ This project is 100% **vibecoded**. Every transition, button press, and data flo
 * **Dev-Contact Integration:** I’ve put a direct "mail me" link in the top bar. It copies my email to your clipboard and opens your mail app automatically.
 
 ---
+## ScreenShots
+
+<img width="385" height="854" alt="image" src="https://github.com/user-attachments/assets/f78bf4ba-9b17-47c9-8197-96a7177b7b07" />
+<img width="402" height="864" alt="image" src="https://github.com/user-attachments/assets/8bafdb13-a49b-493a-a52e-425aeee33325" />
+<img width="369" height="552" alt="image" src="https://github.com/user-attachments/assets/7385ecb0-aeae-4215-a0c7-6e49d9322446" />
+<img width="398" height="870" alt="image" src="https://github.com/user-attachments/assets/c79ba295-6b65-4918-9000-2c40cd6c3e10" />
+
+
 
 ## 🛠️ The Tech Stack
 
